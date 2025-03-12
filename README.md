@@ -1,12 +1,57 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+This is the frontend for the application, built using Vite.js for fast development and optimized builds.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js (latest LTS version recommended)
+- npm or yarn
 
-## Expanding the ESLint configuration
+### Setup
+1. Clone the repository:
+   ```sh
+   git clone <repository_url>
+   cd <project_directory>
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Development Server
+To start the development server, run:
+```sh
+npm run dev
+```
+
+## Building for Production
+To create an optimized production build, use:
+```sh
+npm run build
+```
+
+## Routes
+The application uses React Router for navigation. Below are the available routes:
+
+| Route | Component |
+|--------|--------------------|
+| `/register/customer` | CustomerRegister |
+| `/register/admin` | AdminRegister |
+| `/login/user` | UserLogin |
+| `/dashboard` | Dashboard |
+| `/verify-email` | VerifyEmail |
+
+ 
+
+ 
+
+
+![alt text](image.png)
+ 
+![alt text](image-1.png)![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
