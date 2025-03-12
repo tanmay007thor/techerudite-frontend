@@ -55,3 +55,5 @@ The application uses React Router for navigation. Below are the available routes
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
+![alt text](image-5.png)
